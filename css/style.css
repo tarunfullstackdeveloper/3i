@@ -740,6 +740,12 @@ svg:not(:root) {
 .featuredblog .row .contentwrap p {
     color: #333;
 }
+.whitebtn {
+    background: #fff!important;color: rgb(3 28 54);
+}
+.whitebtn:hover {
+    background: linear-gradient(90deg, rgba(0, 203, 198, 1) 100%, rgba(5, 159, 100, 1) 0%)!important;
+}
 @media(max-width: 1920px) {
     html {
         font-size: 82%;
