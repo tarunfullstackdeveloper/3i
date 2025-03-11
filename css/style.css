@@ -147,6 +147,8 @@ header.siteheader .logo img {
 }
 .navbar ul li.active a {
     font-weight: 600;
+}
+.navbar ul li.active a, .navbar ul li a:hover, .menufooterbar ul li a:hover, .footerbottomsec .copyrow ul li a:hover {
     color: #00CBC6;
 }
 .mainbanner .container {
@@ -183,8 +185,8 @@ h1 {
     border-radius: 6px;
     margin-top: 2rem;
 }
-.button-theme:hover {
-    background: linear-gradient(90deg, rgba(0, 203, 198, 1) 100%, rgba(5, 159, 100, 1) 0%);
+.button-theme:hover, .contactbtn a:hover, .showall .button-theme:hover {
+    background: linear-gradient(90deg, rgba(0, 203, 198, 1) 100%, rgba(5, 159, 100, 1) 0%);color: #fff;
 }
 p {
     font-size: 1.5rem;
