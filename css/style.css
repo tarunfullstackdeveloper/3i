@@ -712,13 +712,22 @@ svg:not(:root) {
     display: flex;
     margin-bottom: 5rem;
 }
+.categorylist ul li {
+    width: 100%;
+}
+.categorylist ul li:first-child{
+    width: auto;
+}
+.categorylist ul li.active a, .categorylist ul li:hover a {
+    background: linear-gradient(90deg, rgba(0, 203, 198, 1) 100%, rgba(5, 159, 100, 1) 0%);
+}
 .categorylist li a{
     color: #fff;
     font-size: 1.5rem;
     text-decoration: none;
-    padding: 12px 2.5rem;
+    padding: 2rem 2.5rem;
     border: 1px solid #fff;
-    display: inline-block;
+    display: block;
 }
 .featuredblog .row {
     background-color: #D9D9D9;
