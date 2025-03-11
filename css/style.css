@@ -669,6 +669,14 @@ svg:not(:root) {
     height: 20px;
     border-radius: 10px;
 }
+.siteheader.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 111;
+    left: 0;
+    width: 100%;
+    background: rgb(3 28 54);
+}
 @media(max-width: 1920px) {
     html {
         font-size: 82%;
