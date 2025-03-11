@@ -681,6 +681,9 @@ svg:not(:root) {
     html {
         font-size: 82%;
     }
+    .section.sticky-sec .container {
+        max-width: 1610px;
+    }
 }
 @media(max-width: 1600px ) {
     html {
