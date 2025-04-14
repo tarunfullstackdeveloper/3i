@@ -1529,4 +1529,8 @@ ul.valuecreationbx li:nth-child(2):before, ul.valuecreationbx li:nth-child(3):be
         font-size: 7px;
         padding: 10px 7px;
     }
+    .ourprincipalslide:hover {
+        width: 250px;
+        height: 250px;
+    }
 }
