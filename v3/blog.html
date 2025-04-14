@@ -17,6 +17,11 @@
 		<div class="container">
 			<div class="row justifyspacebetween aligncenter">
 				<div class="logo"><a href=""><img src="img/logo.png" alt="logo"></a></div>
+				<svg width="30px" height="30px" class="humburgurmenu" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M4 18L20 18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+					<path d="M4 12L20 12" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+					<path d="M4 6L20 6" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+				</svg>
 				<div class="navbar">
 					<div class="navbarmenu right">
 						<div class="button close" style="display: none;">
@@ -168,50 +173,44 @@
 <!-- Industry Insights End -->
 
 <!-- Footer Start  -->
-	<footer class="sitefooter cover spaceequal" style="background-image: url('img/footer.jpg');">
-		<div class="container">
-			<div class="footertopsec">
-				<div class="row">
-					<div class="col-4">
-						<div class="footercol">
-							<div class="logo"><img src="img/logo.png" alt="logo"></div>	
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="footersubscribe">
-							<h4>Subscribe to the newsletter</h4>
-							<div class="newsletterbox">
-								<div class="inputfield"><input type="text" placeholder="Leave your Email"><button class="button-theme" type="submit">Subscribe</button></div>
-							</div>
-						</div>
+<footer class="sitefooter cover spaceequal" style="background-image: url('img/footer.jpg');">
+	<div class="container">
+		<div class="footertopsec">
+			<div class="row">
+				<div class="col-4">
+					<div class="footercol">
+						<div class="logo"><img src="img/logo.png" alt="logo"></div>	
 					</div>
 				</div>
-			</div>
-			<div class="menufooterbar">										
-				<ul>
-					<li class="active"><a href="/">Home</a></li>
-					<li><a href="whatwedo.html">What We Do</a></li>
-					<li><a href="whoweare.html">Who We are</a></li>
-					<li><a href="blog.html">Insight</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
-				</ul>
-			</div>
-			<div class="footerbottomsec">
-				<div class="copyrow">
-					<div class="copyleft">
+				<div class="col-4">
+					<div class="menufooterbar">										
 						<ul>
-							<li><a href="">Privacy Policy</a></li>
-							<li><a href="">Terms & Conditions</a></li>
-							<li><a href="">Cookie Policy</a></li>
+							<li class="active"><a href="/">Home</a></li>
+							<li><a href="whatwedo.html">What We Do</a></li>
+							<li><a href="whoweare.html">Who We are</a></li>
+							<li><a href="blog.html">Insight</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
 						</ul>
-					</div>
-					<div class="copyright">
-						<p>Copyright &copy; 2025 3i, All rights reserved.</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</footer>
+		<div class="footerbottomsec">
+			<div class="copyrow">
+				<div class="copyleft">
+					<ul>
+						<li><a href="">Privacy Policy</a></li>
+						<li><a href="">Terms & Conditions</a></li>
+						<li><a href="">Cookie Policy</a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					<p>Copyright &copy; 2025 3i, All rights reserved.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 <!-- Footer End  -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
@@ -226,5 +225,17 @@
     }
 });
 </script>
+<script>
+	$(document).ready(function () {
+	  $('.humburgurmenu').click(function () {
+		$('.navbar').fadeIn();     // Show navbar
+		$('.close').show();        // Show close button
+	  });
+  
+	  $('.close').click(function () {
+		$('.navbar').fadeOut();    // Hide navbar
+	  });
+	});
+</script> 
 </body>
 </html>

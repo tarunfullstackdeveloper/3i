@@ -1497,5 +1497,36 @@ ul.valuecreationbx li:nth-child(2):before, ul.valuecreationbx li:nth-child(3):be
     }
     .equityfirm .headingBox {
         text-align: center;
+    }    
+    p.m-auto.col-9 {
+        width: 100%;
+    }
+    .pressureleaderinnr {
+        height: 250px;
+    }
+    .pressureleaderinnrcontent .contenthoverinnr h4 {
+        font-size: 20px;
+    }
+    .image-animation-trigger._3d-for-image {
+        width: 100%;
+        height: 340px;
+        position: relative;
+    }
+    ul.valuecreationbx {
+        width: 100%;
+    }
+    ul.valuecreationbx li .linnr{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .valuecreationpefirms h2  br {
+        display: none;
+    }
+    .modalinnr {
+        padding: 30px 20px;
+    }
+    .categorylist li a {
+        font-size: 7px;
+        padding: 10px 7px;
     }
 }
