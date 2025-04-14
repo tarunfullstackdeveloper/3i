@@ -1169,6 +1169,9 @@ ul.valuecreationbx li:nth-child(2):before, ul.valuecreationbx li:nth-child(3):be
     top: 0;
     right: 0;
 }
+.humburgurmenu {
+    display: none;
+}
 @media(max-width: 1920px) {
     html {
         font-size: 90%;
