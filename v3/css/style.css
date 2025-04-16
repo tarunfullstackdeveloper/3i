@@ -1066,6 +1066,7 @@ ul.valuecreationbx li:nth-child(2):before, ul.valuecreationbx li:nth-child(3):be
     margin-bottom: 1.2rem !important;
     max-width: 100% !important;
     line-height: 1.2;
+    font-weight: 700 !important;
 }
 .contenthover p strong {
     color: rgba(5,159,100,1) !important;
@@ -1084,6 +1085,9 @@ ul.valuecreationbx li:nth-child(2):before, ul.valuecreationbx li:nth-child(3):be
 }
 .pressureleaderinnr:hover .contenthover {
     opacity: 1;
+}
+.footercol .logo img {
+    max-width: 70px;;
 }
 .pressureleaderinnr {
     transition: 0.5s all ease-in-out;
@@ -1171,6 +1175,10 @@ ul.valuecreationbx li:nth-child(2):before, ul.valuecreationbx li:nth-child(3):be
 }
 .humburgurmenu {
     display: none;
+}
+.contenthover p.small {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 @media(max-width: 1920px) {
     html {
