@@ -1180,6 +1180,32 @@ ul.valuecreationbx li:nth-child(2):before, ul.valuecreationbx li:nth-child(3):be
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
+.equityfirm h2 {
+    font-size: 2.5rem; font-weight: 400;
+}
+.testimonialcontent h4 {
+    z-index: 1;
+}
+.testimonialcontent .contenthover {
+    z-index: 4;    border-radius: 8px;
+}
+.testimonialcontent:hover .contenthover {
+    opacity: 1;
+}
+.testimonialcontent:hover h4 {
+    opacity: 0;
+} 
+.testimonialcontent {
+    overflow: hidden;
+}
+.testimonialcontent .contenthover h4 {
+    position: relative;
+    padding: 0;
+    color: #fff;
+    background: no-repeat;
+    opacity: 1;
+    font-size: 1.75rem;
+}
 @media(max-width: 1920px) {
     html {
         font-size: 90%;
